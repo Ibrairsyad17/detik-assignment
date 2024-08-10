@@ -12,11 +12,21 @@
         <div class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center">
             <p class="text-white my-5">Connect With Us</p>
             <div class="d-flex justify-content-center align-items-center social-container">
-                <img src="{{ asset('assets/img/facebook.svg') }}" alt="instagram" class="social-media-icons mx-1">
-                <img src="{{ asset('assets/img/x.png') }}" alt="" class="social-media-icons mx-1">
-                <img src="{{ asset('assets/img/instagram.svg') }}" alt="" class="social-media-icons mx-1">
-                <img src="{{ asset('assets/img/linkedin.svg') }}" alt="" class="social-media-icons mx-1">
-                <img src="{{ asset('assets/img/youtube.png') }}" alt="" class="social-media-icons mx-1">
+                <a href="https://www.facebook.com/detikcom/">
+                    <img src="{{ asset('assets/img/facebook.svg') }}" alt="instagram" class="social-media-icons mx-1">
+                </a>
+                <a href="https://twitter.com/detikcom">
+                    <img src="{{ asset('assets/img/x.png') }}" alt="" class="social-media-icons mx-1">
+                </a>
+                <a href="https://www.instagram.com/detikcom/">
+                    <img src="{{ asset('assets/img/instagram.svg') }}" alt="" class="social-media-icons mx-1">
+                </a>
+                <a href="https://www.linkedin.com/company/detik-com">
+                    <img src="{{ asset('assets/img/linkedin.svg') }}" alt="" class="social-media-icons mx-1">
+                </a>
+                <a href="https://www.youtube.com/c/detikcom">
+                    <img src="{{ asset('assets/img/youtube.png') }}" alt="" class="social-media-icons mx-1">
+                </a>
             </div>
 
         </div>
