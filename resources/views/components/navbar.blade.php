@@ -10,9 +10,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav bg-transparent mx-lg-auto">
-                <a class="nav-item nav-link bg-transparent text-center" href="/" aria-current="page">Home</a>
-                <a class="nav-item nav-link bg-transparent text-center" href="/#about">Tentang Program</a>
-                <a class="nav-item nav-link bg-transparent text-center" href="/#news">Berita</a>
+                <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="/"
+                    aria-current="page">Home</a>
+                <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="/#about">Tentang
+                    Program</a>
+                <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="/#news">Berita</a>
             </div>
             <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
 
