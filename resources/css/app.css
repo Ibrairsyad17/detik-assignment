@@ -209,9 +209,6 @@ swiper-slide img {
     font-size: 14px;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: -23px 22px 41px 13px rgba(0, 209, 255, 0.29);
-    -webkit-box-shadow: -23px 22px 41px 13px rgba(0, 209, 255, 0.29);
-    -moz-box-shadow: -23px 22px 41px 13px rgba(0, 209, 255, 0.29);
 }
 
 .btn-second-color:hover {
@@ -250,6 +247,22 @@ swiper-slide img {
     color: #00d1ff;
 }
 
+footer {
+    background-color: #00d1ff;
+    color: white;
+    padding: 40px 0;
+}
+
+.social-container {
+    width: 100%;
+}
+
+.social-media-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .hero-content {
         height: 100%;
@@ -277,6 +290,9 @@ swiper-slide img {
     }
 
     .about-section {
+        height: auto;
+    }
+    .news-section {
         height: auto;
     }
 
