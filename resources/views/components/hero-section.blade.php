@@ -1,4 +1,4 @@
-<section class="hero-container">
+<section class="hero-container" id="home">
     <div class="image-container">
         <div class="gradient-image"></div>
         <img src="{{ asset('/assets/img/cover.png') }}" id="main-image" alt="Hero Image" class="img-fluid">

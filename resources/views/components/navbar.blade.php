@@ -10,7 +10,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav bg-transparent mx-lg-auto">
-                <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="/"
+                <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="#home"
                     aria-current="page">Home</a>
                 <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="/#about">Tentang
                     Program</a>
