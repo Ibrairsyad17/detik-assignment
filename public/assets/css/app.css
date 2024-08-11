@@ -333,6 +333,14 @@ footer {
     cursor: pointer;
 }
 
+.btn-github {
+    width: 200px;
+    margin: auto;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.393);
+}
+
 @media screen and (max-width: 768px) {
     .hero-content {
         height: 100%;

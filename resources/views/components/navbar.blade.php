@@ -25,3 +25,7 @@
         </div>
     </div>
 </nav>
+<a href="https://github.com/Ibrairsyad17/detik-assignment/" type="button"
+    class="btn btn-dark btn-github position-fixed mb-5" style="z-index: 1020;"><i class="bi bi-github me-2"></i>
+    <span>Github Repo</span>
+</a>
