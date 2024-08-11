@@ -24,8 +24,22 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <script src="/assets/js/app.js"></script>
-    {{-- @vite('resources/js/app.js') --}}
+    <script>
+        document
+            .querySelector(".navbar-toggler")
+            .addEventListener("click", function() {
+                const icon = document.getElementById("navbar-toggler-icon");
+                icon.classList.toggle("bi-list");
+                icon.classList.toggle("bi-x");
+            });
+
+        // Change main image on Swiper image click
+        document.querySelectorAll(".swiper-img").forEach((img) => {
+            img.addEventListener("click", function() {
+                document.getElementById("main-image").src = this.src;
+            });
+        });
+    </script>
 </body>
 
 </html>
