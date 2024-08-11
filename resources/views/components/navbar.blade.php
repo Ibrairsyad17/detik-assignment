@@ -1,6 +1,6 @@
 <nav class="navbar nav-position container navbar-expand-lg p-3 my-5 rounded-5">
     <div class="container-xl">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <img src="{{ asset('/assets/img/detiktravel-logo.svg') }}" class="h-6" alt="detiktravel">
         </a>
         <button class="navbar-toggler btn-first-color rounded-pill" type="button" data-bs-toggle="collapse"
@@ -10,7 +10,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav bg-transparent mx-lg-auto">
-                <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="#home"
+                <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="/#home"
                     aria-current="page">Home</a>
                 <a class="nav-item nav-link bg-transparent text-center fw-semibold text-black" href="/#about">Tentang
                     Program</a>
