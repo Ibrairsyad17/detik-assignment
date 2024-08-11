@@ -1,5 +1,6 @@
-<section class="news-section pt-20 pb-10">
-    <div class="d-flex flex-column container">
+<section class="news-section pt-20 pb-10" style="background-image: url('{{ asset('assets/img/bg-news.png') }}');">
+    <div class="d-flex flex-column
+    container">
         <div class="d-flex justify-content-start align-items-center mt-10">
             <img src="{{ asset('/assets/img/detiktravel-logo.svg') }}" class="h-8" alt="detiktravel">
             <h1 class="text-warning ms-3">Update</h1>

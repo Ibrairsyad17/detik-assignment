@@ -1,4 +1,4 @@
-<section class="about-section py-20" id="about">
+<section class="about-section py-20" id="about" style="background-image: url('{{ asset('assets/img/about.png') }}');">
     <div class="row container mx-auto">
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
             <img src="{{ asset('/assets/img/about-image.png') }}" alt="" class="about-image">

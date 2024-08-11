@@ -148,7 +148,6 @@ swiper-slide img {
 .news-section {
     height: 900px;
     width: 100%;
-    background-image: url("/public/assets/img/bg-news.png");
     background-size: cover;
     background-position: center;
 }
